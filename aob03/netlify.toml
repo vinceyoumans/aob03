@@ -1,7 +1,7 @@
 [build]
   publish = "aob03/public"
 #  command = "cd aob03 && hugo --gc --themesDir ../.."
-  command = "cd aob03 && hugo --gc --themesDir ../.."
+  command = "cd aob03 && hugo"
 
 
 [build.environment]
