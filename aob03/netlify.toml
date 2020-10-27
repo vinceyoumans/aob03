@@ -1,0 +1,8 @@
+[build]
+  publish = "aob03/public"
+  command = "cd aob03 && hugo --gc --themesDir ../.."
+  
+[build.environment]
+  HUGO_VERSION = "0.73.0"
+  HUGO_THEME = "repo"
+  HUGO_BASEURL = "/"
