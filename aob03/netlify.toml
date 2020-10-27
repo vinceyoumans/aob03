@@ -1,5 +1,5 @@
 [build]
-  publish = "aob03/public"
+  publish = "public"
 #  command = "cd aob03 && hugo --gc --themesDir ../.."
 #  command = "cd aob03 && hugo"
   command = "hugo"
