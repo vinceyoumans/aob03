@@ -1,0 +1,3 @@
+[submodule "aob03/themes/airspace-hugo"]
+	path = aob03/themes/airspace-hugo
+	url = https://github.com/vinceyoumans/airspace-hugo.git
