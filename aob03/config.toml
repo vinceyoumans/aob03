@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
+baseURL = "http://v03.anastonbeach.com"
+title = "Anastacia on the Beach"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -60,11 +60,11 @@ logo = "images/logo.png"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "vyoumans.com"
 # Contact Information
-mobile = "0124857985320"
+mobile = "443-506-3078"
 email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+location = "North Miami Beach, Florida 33160"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
@@ -129,7 +129,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 [vyoumans.com](https://vyoumans.com) All Rights Reserved"
 
 
 ######################### english navigation #############################
@@ -218,7 +218,7 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 [vyoumans.com](https://vyoumans.com) All Rights Reserved"
 
 
 ######################### france navigation #############################
@@ -299,3 +299,95 @@ weight = 5
 name = "Contact"
 URL = "contact"
 weight = 6
+
+
+
+################################ Russian Language ########################
+[Languages.ru]
+languageName = "Ru"
+languageCode = "ru-ru"
+contentDir = "content/russian"
+weight = 2
+# copyright
+copyright = "Copyright &copy; 2020 [vyoumans.com](https://vyoumans.com) All Rights Reserved"
+
+
+######################### russian navigation #############################
+# main menu
+[[Languages.ru.menu.main]]
+name = "Accueil"
+URL = "/"
+weight = 1
+
+[[Languages.ru.menu.main]]
+name = "À propos"
+URL = "about"
+weight = 2
+
+[[Languages.ru.menu.main]]
+name = "Projet"
+URL = "project"
+weight = 3
+
+[[Languages.ru.menu.main]]
+name = "Un service"
+URL = "service"
+weight = 4
+
+[[Languages.ru.menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 5
+
+[[Languages.ru.menu.main]]
+weight = 6
+name = "Pages"
+hasChildren = true
+
+  [[Languages.ru.menu.main]]
+  parent = "Pages"
+  name = "FAQ"
+  URL = "faq"
+
+  [[Languages.ru.menu.main]]
+  parent = "Pages"
+  name = "Tarification"
+  URL = "pricing"
+  
+[[Languages.ru.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 7
+
+
+# footer menu
+[[Languages.ru.menu.footer]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[Languages.ru.menu.footer]]
+name = "Project"
+URL = "project"
+weight = 2
+
+[[Languages.ru.menu.footer]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[Languages.ru.menu.footer]]
+name = "Pricing"
+URL = "pricing"
+weight = 4
+
+[[Languages.ru.menu.footer]]
+name = "FAQ"
+URL = "faq"
+weight = 5
+
+[[Languages.ru.menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
