@@ -1,5 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "aobv03.netlify.app"
+# baseURL = "aobv03.netlify.app"
+baseURL = "/"
 title = "Anastacia on the Beach"
 theme = "airspace-hugo"
 # post pagination
